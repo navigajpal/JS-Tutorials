@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Tutorial 3</title>
+</head>
+<body>
+    
+    <h1>Display Possibilities</h1>
+
+    <!-- innerHTML => Writing into an HTML Element -->
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML = 5 + 6;
+    </script>
+
+    <!-- document.write() => Writing into an HTML Output -->
+    
+    <script>
+        document.write(4 + 9);
+    </script>
+
+    <button type="button" onclick="document.write(15 + 63)">Click</button>
+
+    <!-- window.alert() => Writing into an Alert Box -->
+    <script>
+        window.alert(68 + 93);
+    </script>
+
+    <!-- console.log() => Writing into the Browser Control-->
+    <script>
+        console.log(96 + 53);
+    </script>
+
+    <!-- Print Button -->
+    <P>Click the button to print the current page.</P>
+
+    <button onclick="window.print()">Print this page</button>
+
+</body>
+</html>
